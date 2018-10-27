@@ -13,7 +13,6 @@ moment.locale('hr');
 class App extends Component {
 
   render() {
-
     return (
       <div>
       <Switch>
