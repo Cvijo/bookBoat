@@ -1,14 +1,50 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: rgb(234, 234, 234) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.backgroundImageHomePage {
+   background-image: url('/assets/LoginBackground.jpg') !important;
+   /* background-size: cover !important; */
+}
+.dimmer { background-color: rgba(0,0,0,0.90) !important }
+.masthead {
+  /* background-color: lightblue !important; */
+  background-color: transparent !important;
+  z-index: 1001;
+
+  
+  /* background-image: linear-gradient(
+          135deg,
+          rgba(24, 42, 115, 0.274) 0%,
+          rgba(33, 139, 174, 0.226) 69%,
+          rgba(32, 167, 172, 0.192) 89%
+  ) !important; */
+}
+
+.masthead.segment {
+  min-height: 700px;
+  padding: 1em 0 !important;
+}
+
+
+.masthead h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0;
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.main.container,
+.main.segment {
+  margin-top: 5em;
+}
+.bookListItem {
+  padding-bottom: 0px !important;
+
 }
